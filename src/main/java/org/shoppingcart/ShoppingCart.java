@@ -18,7 +18,7 @@ public class ShoppingCart {
             double sum = item.getPrice() * item.getQuantity();
 
             if (item.getQuantity() > 5) {
-                sum = Math.round((sum * 0.921) * 100.0)/100.0;
+                sum = Math.round((sum * 0.9) * 100.0)/100.0;
             }
 
             totalSum += sum;
