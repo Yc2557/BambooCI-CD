@@ -33,7 +33,7 @@ class ShoppingCartTest {
         shoppingCart.addItem(new Item(1, "Pear", 2.5, 7));
         shoppingCart.addItem(new Item(1, "Orange", 9, 2));
 
-        assertEquals(shoppingCart.calculateTotalPrice(), 48.7);
+        assertEquals(shoppingCart.calculateTotalPrice(), 48.75);
     }
 
 }
