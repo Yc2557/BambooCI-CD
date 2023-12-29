@@ -18,7 +18,7 @@ public class ItemTest {
     void quantityChangeTest() {
         assertEquals(3, item.getQuantity());
 
-        item.setQuantity(10);
+        item.setQuantity(5);
         assertEquals(10, item.getQuantity());
     }
 }
